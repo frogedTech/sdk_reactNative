@@ -101,7 +101,7 @@ const App = () => {
                     messagesListener.next({ command, params });
                 }}
                 containerStyle={ frogedOpen ? {} : { display: 'none' }}
-                source={{ uri: 'http://1eee-185-137-52-134.ngrok.io/webview/sdk-wv.html?slug=IIFqhs' }}
+                source={{ uri: 'https://sdk.froged.com/sdk-wv.html?slug=xxxxxx' }}
                 ref={ref => (webviewRef = ref)}
             ></WebView>
       </>
